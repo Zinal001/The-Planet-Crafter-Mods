@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net46</TargetFramework>
@@ -29,12 +29,15 @@
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\Libs\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="com.mijugames.miju-tools">
       <HintPath>..\Libs\com.mijugames.miju-tools.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>..\Libs\Unity.InputSystem.dll</HintPath>
+      <Private>false</Private>
     </Reference>
   </ItemGroup>
   

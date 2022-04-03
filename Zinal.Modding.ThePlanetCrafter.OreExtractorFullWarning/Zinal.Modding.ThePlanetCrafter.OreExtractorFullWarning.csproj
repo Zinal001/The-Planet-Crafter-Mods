@@ -29,9 +29,11 @@
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\Libs\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="com.mijugames.miju-tools">
       <HintPath>..\Libs\com.mijugames.miju-tools.dll</HintPath>
+      <Private>false</Private>
     </Reference>
   </ItemGroup>
   
